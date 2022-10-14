@@ -1,5 +1,5 @@
 from random import randrange, choice
-from ..engine import greet, question, answer, check
+from ..engine import greet, question, answer, check, wrong
 
 
 def calc():
@@ -37,7 +37,13 @@ def calc():
         question(ask)
 
         # Get user's answer
-        guess = int(answer())
+        guess = answer()
+
+        # Check if provided answer is an integer and convert it
+        try:
+            guess = int(guess)
+        except ValueError:
+            wrong(guess, correct, name)
 
         # Check if the user's answer equals correct one
         correct_answers = check(guess, correct, correct_answers, name)

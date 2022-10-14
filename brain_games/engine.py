@@ -36,9 +36,15 @@ def check(guess, correct, correct_answers, name):
         correct_answers += 1
         return correct_answers
     else:
-        print(f"'{guess}' is wrong answer ;(.", end='')
-        print(f"Correct answer was '{correct}'.")
-        print(f"Let's try again, {name}!")
+        wrong(guess, correct, name)
 
-        # Quit if wrong answer provided
-        quit()
+
+def wrong(guess, correct, name):
+    ''' Prints guess and correct answers and closes the program '''
+
+    print(f"'{guess}' is wrong answer ;(.", end=' ')
+    print(f"Correct answer was '{correct}'.")
+    print(f"Let's try again, {name}!")
+
+    # Close the program if wrong answer provided
+    quit()
