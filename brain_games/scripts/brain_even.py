@@ -4,11 +4,10 @@ from random import randrange
 
 def main():
     # Greet the user and get his name
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
+    name = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
 
-    print(f'''Hello, {name}!
-Answer "yes" if the number is even, otherwise answer "no".''')
+    print(f'Hello, {name}!')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
     # Count correct answers
     correct_answers = 0
