@@ -6,6 +6,7 @@ from ..engine import greet, question, answer, check, wrong
 def game():
     # Greet the user and get his name
     name = greet()
+    print('Find the greatest common divisor of given numbers.')
 
     # Count correct answers
     correct_answers = 0

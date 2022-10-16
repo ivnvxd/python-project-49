@@ -5,6 +5,7 @@ from ..engine import greet, question, answer, check, wrong
 def calc():
     # Greet the user and get his name
     name = greet()
+    print('What is the result of the expression?')
 
     # Count correct answers
     correct_answers = 0
