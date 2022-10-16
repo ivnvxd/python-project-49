@@ -3,10 +3,13 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/cb7fbbbac80584fb829a/maintainability)](https://codeclimate.com/github/venyxD/python-project-49/maintainability)
 
 brain-even
-[![asciicast](https://asciinema.org/a/528053.svg)](https://asciinema.org/a/528053)
+<a href="https://asciinema.org/a/528053" target="_blank"><img src="https://asciinema.org/a/528053.svg" width="200"/></a>
 
 brain-calc
-[![asciicast](https://asciinema.org/a/528420.svg)](https://asciinema.org/a/528420)
+<a href="https://asciinema.org/a/528420" target="_blank"><img src="https://asciinema.org/a/528420.svg" width="200"/></a>
 
 brain-gcd
-[![asciicast](https://asciinema.org/a/528452.svg)](https://asciinema.org/a/528452)
+<a href="https://asciinema.org/a/528452" target="_blank"><img src="https://asciinema.org/a/528452.svg" width="200"/></a>
+
+brain-progression
+<a href="https://asciinema.org/a/528950" target="_blank"><img src="https://asciinema.org/a/528950.svg" width="200"/></a>
