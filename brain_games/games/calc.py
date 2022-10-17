@@ -2,7 +2,7 @@ from random import randrange, choice
 from ..engine import greet, question, answer, check, wrong
 
 
-def calc():
+def game():
     # Greet the user and get his name
     name = greet()
     print('What is the result of the expression?')
