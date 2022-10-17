@@ -17,7 +17,7 @@ def game():
         number = randrange(0, 100)
 
         # Calculate correct answer
-        correct = is_prime(number)
+        correct = prime(number)
 
         # Ask game's question
         ask = f"{number}"
@@ -34,7 +34,7 @@ def game():
         print(f"Congratulations, {name}!")
 
 
-def is_prime(number):
+def prime(number):
     ''' Check if given number is prime or not '''
 
     if number > 1:
