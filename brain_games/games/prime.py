@@ -34,11 +34,9 @@ def game():
         print(f"Congratulations, {name}!")
 
 
-# Implement instead of math.gcd() function
 def is_prime(number):
     ''' Check if given number is prime or not '''
 
-    # If given number is greater than 1
     if number > 1:
         # Iterate from 2 to n / 2
         for i in range(2, int(number / 2) + 1):
