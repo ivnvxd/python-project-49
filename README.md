@@ -28,16 +28,17 @@ Five CLI math games
   * [Prerequisites](#prerequisites)
   * [Package](#package)
 * [Usage](#usage)
-  * [Brain Even](#_brain-even_)
-  * [Brain Calc](#_brain-calc_)
-  * [Brain GCD](#_brain-gcd_)
-  * [Brain Progression](#_brain-progression_)
-  * [Brain Prime](#_brain-prime_)
+  * [Brain Even](#brain-even)
+  * [Brain Calc](#brain-calc)
+  * [Brain GCD](#brain-gcd)
+  * [Brain Progression](#brain-progression)
+  * [Brain Prime](#brain-prime)
 * [Additionally](#additionally)
   * [Dependencies](#dependencies)
   * [Dev Dependencies](#dev-dependencies)
   * [Makefile Commands](#makefile-commands)
   * [Project Tree](#project-tree)
+
 </details>
 
 ## About
@@ -45,13 +46,15 @@ Five CLI math games
 "**Mind Games**" is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again.
 
 ### Games:
-- [X] **_Brain Even_**: Determining an even number.
-- [X] **_Brain Calc_**: Arithmetic expressions to be calculated.
-- [X] **_Brain GCD_**: Determining the largest common divisor.
-- [X] **_Brain Progression_**: Finding missing numbers in a sequence of numbers.
-- [X] **_Brain Prime_**: Determining a prime number.
+
+* [X] **_Brain Even_**: Determining an even number.
+* [X] **_Brain Calc_**: Arithmetic expressions to be calculated.
+* [X] **_Brain GCD_**: Determining the largest common divisor.
+* [X] **_Brain Progression_**: Finding missing numbers in a sequence of numbers.
+* [X] **_Brain Prime_**: Determining a prime number.
 
 #### Example:
+
 ```bash
 >> brain-progression
 
@@ -72,6 +75,7 @@ Congratulations, Andrey!
 ```
 
 ### Built With
+
 * Python
 * Poetry
 * prompt
@@ -103,10 +107,13 @@ To use the package, you need to clone the repository to your computer. This is d
 ```bash
 >> git clone https://github.com/venyxD/python-project-49.git
 ```
+
 Then you have to build the package and install it:
+
 ```bash
 >> cd python-project-49
 ```
+
 ```bash
 >> poetry build
 >> python3 -m pip install --user dist/*.whl
@@ -128,6 +135,7 @@ Question: 98
 Your answer: no
 'no' is wrong answer ;(. Correct answer was 'yes'.
 ```
+
 ```bash
 >> brain-even
 
@@ -151,6 +159,7 @@ Question: 3 + 15
 Your answer: 315
 '315' is wrong answer ;(. Correct answer was '18'.
 ```
+
 ```bash
 >> brain-calc
 
@@ -174,6 +183,7 @@ Question: 95 96
 Your answer: 5
 '5' is wrong answer ;(. Correct answer was '1'.
 ```
+
 ```bash
 >> brain-gcd
 
@@ -197,6 +207,7 @@ Question: 13 22 31 40 49 58 67 76 85 .. 103
 Your answer: 100
 '100' is wrong answer ;(. Correct answer was '94'.
 ```
+
 ```bash
 >> brain-progression
 
@@ -220,6 +231,7 @@ Question: 66
 Your answer: yes
 'yes' is wrong answer ;(. Correct answer was 'no'.
 ```
+
 ```bash
 >> brain-prime
 
@@ -236,13 +248,16 @@ Correct!
 ## Additionally
 
 ### Dependencies
-- python = "^3.10"
-- prompt = "^0.4.1"
+
+* python = "^3.10"
+* prompt = "^0.4.1"
 
 ### Dev Dependencies
-- flake8 = "^5.0.4"
+
+* flake8 = "^5.0.4"
 
 ### Makefile Commands
+
 <dl>
     <dt><code>make build</code></dt>
     <dd>Build the Poetry package.</dd>    
@@ -253,8 +268,7 @@ Correct!
 </dl>
 
 <a name="project-tree"></a>
-<details>
-  <summary style="font-size:larger;"><b>Project Tree</b></summary>
+<details><summary style="font-size:larger;"><b>Project Tree</b></summary>
 
 ```bash
 .
@@ -282,6 +296,7 @@ Correct!
 ├── pyproject.toml
 └── setup.cfg
 ```
+
 </details>
 
 ---
