@@ -267,6 +267,8 @@ Correct!
     <dd>Check code with flake8 linter.</dd>
 </dl>
 
+---
+
 <a name="project-tree"></a>
 <details><summary style="font-size:larger;"><b>Project Tree</b></summary>
 
