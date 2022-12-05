@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="img/img.png" alt="logo" width="300" height="auto" />
+<img src="https://raw.githubusercontent.com/venyxD/venyxD/master/img/brain_games.png" alt="logo" width="300" height="auto" />
 <h1>Mind Games</h1>
 
 <p>
@@ -252,7 +252,9 @@ Correct!
     <dd>Check code with flake8 linter.</dd>
 </dl>
 
-### Project Tree
+<a name="project-tree"></a>
+<details>
+  <summary style="font-size:larger;"><b>Project Tree</b></summary>
 
 ```bash
 .
@@ -280,6 +282,8 @@ Correct!
 ├── pyproject.toml
 └── setup.cfg
 ```
+</details>
+
 ---
 
 :octocat: This is the first training project of the ["Python Developer"](https://ru.hexlet.io/programs/python) course on [Hexlet.io](https://hexlet.io)
