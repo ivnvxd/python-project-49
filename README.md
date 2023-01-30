@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/venyxD/venyxD/master/img/brain_games.png" alt="logo" width="300" height="auto" />
+<img src="https://raw.githubusercontent.com/ivnvxd/ivnvxd/master/img/h_brain_games.png" alt="logo" width="270" height="auto" />
 <h1>Mind Games</h1>
 
 <p>
@@ -305,5 +305,5 @@ Correct!
 
 :octocat: This is the first training project of the ["Python Developer"](https://ru.hexlet.io/programs/python) course on [Hexlet.io](https://hexlet.io)
 
-> GitHub [@venyxD](https://github.com/venyxD) &nbsp;&middot;&nbsp;
+> GitHub [@ivnvxd](https://github.com/ivnvxd) &nbsp;&middot;&nbsp;
 > LinkedIn [@Andrey Ivanov](https://www.linkedin.com/in/abivanov/)
